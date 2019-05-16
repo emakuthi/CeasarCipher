@@ -10,8 +10,8 @@ This is a very simple encryption technique: it substitutes each letter with a di
 
  | Behavior                                       |  Input | Output    |
  | ---------------------------------------------- | ------ | --------- |
- | Display the Github users profiles  | enter any user name      | the app will display the profile picture and all other info about the user   |
- | Enter into the repos using a link | click view a link in Github     | user will get into the project repo   |
+ | Entering a shift factor of 10  | sinatra      |  Csxkdbk  |
+ | Entering a shift factor of -10  |  sinatra   |  Iydqjhq  |
 
 ## Setup/Installation Requirements
 
