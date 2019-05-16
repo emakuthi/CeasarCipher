@@ -15,42 +15,43 @@ This is a very simple encryption technique: it substitutes each letter with a di
 
 ## Setup/Installation Requirements
 
-* Open CMD/Terminal
-* $ git clone https://github.com/emakuthi/git-searchApp
-* Open index.html file in a browser such as Google Chrome
+* create a new folder on your desired location in your local machine
+* git init using your teminal
+* git clone https://github.com/emakuthi/CeasarCipher.git
+* make sure you have intellij installed in you laptop.
+* launch intellij and go to files>open project.
+* enjoy the code.
 
 ## Known Bugs
 
 there are currently no known bugs experienced on the website but feedback on bugs encountered during viewing of the page will be highly appreciated and will go a long way into making the website better for the users. The only reason that the website may fail to load is if the Internet connection is slow or disconnected which will require you to troubleshoot your Internet connection
 
 ## Technologies Used
+* java
 
 **Main Languages used:**
 
-* angular7
-* CSS
-* JavaScript
-* jQuery
-* TypeScript
+* java for web application
+
 
 **Other Technologies:**
 
-* Bootstrap
+* none
 
 ## live link:
 
-$ live link https://emakuthi.github.io/git-searchApp/
+$ live link 
 
 # clone into repository
 
-$ git clone https://github.com/emakuthi/git-searchApp
+$ git clone https://github.com/emakuthi/CeasarCipher.git
 ### Open using your favorite editor and view the code or just open the index.html on the browser
 
 ## Feedback
 
 Incase of any issues or feedback please add using any of below links.
 
-* [Issues](https://github.com/emakuthi/git-searchApp/issues). To submit any issues.
+* [Issues](https://github.com/emakuthi/CeasarCipher/issues). To submit any issues.
 
 * [email](emakuthi@gmail.com) for any other feedback.
 
@@ -63,4 +64,4 @@ Incase of any issues or feedback please add using any of below links.
 
 This project is licensed under the MIT License
 
-**_Elvis Makuthi_** Copyright (c) 2017
+**_Elvis Makuthi_** Copyright (c) 2019
