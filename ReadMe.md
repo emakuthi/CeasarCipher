@@ -28,6 +28,7 @@ there are currently no known bugs experienced on the website but feedback on bug
 
 ## Technologies Used
 * java
+* JUnit
 
 **Main Languages used:**
 
