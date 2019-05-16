@@ -24,7 +24,14 @@ public class Encrypt {
     }
 
     public void setPlainText(String plainText) {
-        this.plainText = plainText;
+        if ((this.plainText != null) && ((!this.plainText.equals("")) && (this.plainText.matches("^[a-zA-Z]*$"))))
+        {
+            this.plainText = plainText;
+        }
+        else
+        {
+            throw new IllegalArgumentException("Please Enter a Plain Text");
+        }
     }
 
     public int getShiftValue() {
@@ -32,6 +39,17 @@ public class Encrypt {
     }
 
     public void setShiftValue(int shiftValue) {
-        this.shiftValue = shiftValue;
+        if(this.shiftValue < 0)
+        {
+            throw new IllegalArgumentException("The shift value is not valid");
+        }
+        else if(this.shiftValue > 26)
+        {
+            throw new IllegalArgumentException("The shift value has exceeded the limit ");
+        }
+        else
+        {
+            this.shiftValue=shiftValue;
+        }
     }
 }
