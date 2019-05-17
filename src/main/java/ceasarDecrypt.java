@@ -1,6 +1,6 @@
 public class ceasarDecrypt {
 
-    public static String decrypt(String plainText, int shift){
+    public String decrypt(String plainText, int shift){
         if(shift>26){
             shift = shift%26;
         }else if(shift<0){
@@ -12,7 +12,7 @@ public class ceasarDecrypt {
             char alphabet = plainText.charAt(i);
             if(Character.isLetter(alphabet)){
                 if(Character.isLowerCase(alphabet)){
-                    char c =(char)(alphabet+shift);
+                    char c =(char)(alphabet-shift);
                     if(c<'a'){
                         cipherText+=(char)(alphabet+(26-shift));
 
@@ -21,7 +21,7 @@ public class ceasarDecrypt {
                     }
                 }
                 else if(Character.isUpperCase(alphabet)){
-                    char c =(char)(alphabet+shift);
+                    char c =(char)(alphabet-shift);
                     if(c<'A'){
                         cipherText +=(char)(alphabet+(26-shift));
                     }
