@@ -6,7 +6,7 @@ public class Main {
 
         String text = scan.nextLine();
 
-        System.out.println("Please Enter shift Number: ");
+        System.out.println("Please Enter a number between 1 to 25: ");
 
         int shiftKey = scan.nextInt();
 
