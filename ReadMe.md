@@ -6,7 +6,7 @@
 This is a very simple encryption technique: it substitutes each letter with a different one based on a shift value. For example, applying a shift factor of 10 to Sinatra will turn it into Csxkdbk. A negative number can also be used instead; -10 would result in Iydqjhq.
 
 
-## Specs
+## Behavior of the programm
 
  | Behavior                                       |  Input | Output    |
  | ---------------------------------------------- | ------ | --------- |
@@ -16,7 +16,7 @@ This is a very simple encryption technique: it substitutes each letter with a di
 ## Setup/Installation Requirements
 
 * create a new folder on your desired location in your local machine
-* git init using your teminal
+* git init using your terminal
 * git clone https://github.com/emakuthi/CeasarCipher.git
 * make sure you have intellij installed in you laptop.
 * launch intellij and go to files>open project.
