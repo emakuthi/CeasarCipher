@@ -20,12 +20,19 @@ public class Encrypt {
 
     public void setPlainText(String plainText) {
 
-        if ((this.plainText != null) && ((!this.plainText.equals("")) && (this.plainText.matches("^[a-zA-Z]*$"))))
-        {
-           this.plainText = plainText;
-        }
 
-    }
+       try{
+           if ((this.plainText != null) && ((!this.plainText.equals("")) && (this.plainText.matches("^[a-zA-Z]*$"))))
+
+           {
+               this.plainText = plainText;
+           }
+
+       }catch (Exception e){ System.out.println("Please Enter a valid input: ");}
+
+
+       }
+
 
     public int getShiftValue() {
         return shiftValue;
